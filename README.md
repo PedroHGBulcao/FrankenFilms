@@ -15,18 +15,18 @@ Caso não possua o Maven instalado em sua máquina, acesse este [link](https://m
 Clone o projeto
 
 ```bash
-  git clone https://github.com/PedroHGBulcao/FrankenFilms.git
+git clone https://github.com/PedroHGBulcao/FrankenFilms.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd FrankenFilms
+cd .\FrankenFIlms\Movies-System-Recommendation\
 ```
 Execute o programa
 
 ```bash 
-  javac nomedoprograma
+mvn exec:java
 ```
 
 Escolha o filme que deseja avaliar e selecione a nota correspondente à sua avaliação
