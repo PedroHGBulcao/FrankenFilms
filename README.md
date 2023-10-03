@@ -15,13 +15,13 @@ Caso não possua o Maven instalado em sua máquina, acesse este [link](https://m
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/PedroHGBulcao/FrankenFilms.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd my-project
+  cd FrankenFilms
 ```
 Execute o programa
 
