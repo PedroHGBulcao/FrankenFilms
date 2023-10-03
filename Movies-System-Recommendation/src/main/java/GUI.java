@@ -7,6 +7,7 @@ import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
 import com.opencsv.CSVReader;
 
 import java.awt.*;
+import java.io.File;
 import java.io.FileReader;
 import java.util.*;
 import java.util.List; 
@@ -206,7 +207,7 @@ public class GUI{
         name2id=new HashMap<String,String>();
         id2link=new HashMap<String,String>();
         Vector<String> lherme = new Vector<String>();
-        
+        System.out.println(new File(".").getAbsolutePath());
         try{
             reader = new CSVReader(new FileReader("movie_database.csv"));
             String[] nextLine = new String[20];
